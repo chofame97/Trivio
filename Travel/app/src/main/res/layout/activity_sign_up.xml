@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUp.SignUpActivity"
+    android:orientation="vertical">
+
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="83dp"
+            android:fontFamily="@font/bmpro"
+            android:gravity="center"
+            android:text="회원가입"
+            android:textColor="@color/black"
+            android:textSize="50dp" />
+        <ImageView
+            android:id="@+id/goBack"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_gravity="right"
+            android:layout_margin="10dp"
+            android:src="@drawable/img_x" />
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="10dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#D1D1D1"
+            android:padding="2dp">
+                <TextView
+                    android:background="@color/white"
+                    android:layout_width="0dp"
+                    android:layout_weight="1.3"
+                    android:layout_height="45dp"
+                    style="@style/signUp_textView"
+                    android:layout_marginRight="2dp"
+                    android:text="아이디"/>
+                <EditText
+                    android:background="@color/white"
+                    android:layout_width="0dp"
+                    android:layout_weight="3"
+                    android:layout_height="45dp"
+                    style="@style/signUp_editText"
+                    android:hint="영문, 숫자"/>
+            <TextView
+                android:background="#8BD69A"
+                android:layout_width="0dp"
+                android:layout_weight="1.5"
+                android:layout_height="45dp"
+                android:textSize="15dp"
+                android:layout_marginLeft="2dp"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:fontFamily="@font/bmpro"
+                android:text="조회"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#D1D1D1"
+            android:paddingBottom="2dp"
+            android:paddingLeft="2dp"
+            android:paddingRight="2dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white">
+                <TextView
+                    android:background="@color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="90dp"
+                    android:textSize="18dp"
+                    android:text="아이디 틀림? 맞음?"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#D1D1D1"
+            android:paddingLeft="2dp"
+            android:paddingRight="2dp">
+            <TextView
+                android:background="@color/white"
+                android:layout_width="0dp"
+                android:layout_weight="1.3"
+                android:layout_height="45dp"
+                style="@style/signUp_textView"
+                android:layout_marginRight="2dp"
+                android:text="비밀번호"/>
+            <EditText
+                android:background="@color/white"
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:layout_height="45dp"
+                style="@style/signUp_editText"
+                android:hint="영문,숫자,특수문자"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#D1D1D1"
+            android:paddingLeft="2dp"
+            android:paddingRight="2dp"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:layout_marginTop="2dp">
+                <TextView
+                    android:background="@color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="125dp"
+                    android:textSize="18dp"
+                    android:text="비번 틀림? 맞음?"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#D1D1D1"
+            android:paddingTop="2dp"
+            android:paddingBottom="2dp">
+
+            <EditText
+                android:background="@color/white"
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:layout_height="45dp"
+                style="@style/signUp_editText"
+                android:layout_marginRight="2dp"
+                android:layout_marginLeft="2dp"
+                android:hint="비밀번호 재확인"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#D1D1D1"
+            android:paddingBottom="2dp"
+            android:paddingLeft="2dp"
+            android:paddingRight="2dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white">
+                <TextView
+                    android:background="@color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textSize="18dp"
+                    android:text="비번확인 틀림? 맞음?"/>
+            </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#D1D1D1"
+            android:padding="2dp">
+            <TextView
+                android:background="@color/white"
+                android:layout_width="0dp"
+                android:layout_weight="1.75"
+                android:layout_height="45dp"
+                style="@style/signUp_textView"
+                android:layout_marginRight="2dp"
+                android:text="닉네임"/>
+            <EditText
+                android:background="@color/white"
+                android:layout_width="0dp"
+                android:layout_weight="2.5"
+                android:layout_height="45dp"
+                style="@style/signUp_editText"
+                android:hint="영문, 숫자"/>
+            <TextView
+                android:background="#DA8686"
+                android:layout_width="0dp"
+                android:layout_weight="1.5"
+                android:layout_height="45dp"
+                android:textSize="15dp"
+                android:layout_marginLeft="2dp"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:fontFamily="@font/bmpro"
+                android:text="조회"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#D1D1D1"
+            android:paddingLeft="2dp"
+            android:paddingRight="2dp">
+            <TextView
+                android:background="@color/white"
+                android:layout_width="0dp"
+                android:layout_weight="1.3"
+                android:layout_height="45dp"
+                style="@style/signUp_textView"
+                android:layout_marginRight="2dp"
+                android:text="이메일"/>
+            <EditText
+                android:background="@color/white"
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:layout_height="45dp"
+                style="@style/signUp_editText"
+                android:hint="chofame@naver.com"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#D1D1D1"
+            android:paddingLeft="2dp"
+            android:paddingRight="2dp">
+
+            <TextView
+                android:background="#8BD69A"
+                android:layout_width="0dp"
+                android:layout_weight="1.3"
+                android:layout_height="45dp"
+                style="@style/signUp_textView"
+                android:layout_marginRight="2dp"
+                android:layout_marginTop="2dp"
+                android:text="이메일 인증번호 전송"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#D1D1D1"
+            android:padding="2dp">
+            <EditText
+                android:background="@color/white"
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:layout_height="45dp"
+                style="@style/signUp_editText"
+                android:hint="이메일 인증번호"/>
+            <TextView
+                android:background="#8BD69A"
+                android:layout_width="0dp"
+                android:layout_weight="1.3"
+                android:layout_height="45dp"
+                style="@style/signUp_textView"
+                android:text="인증확인"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#D1D1D1"
+            android:paddingRight="2dp"
+            android:paddingLeft="2dp"
+            android:paddingBottom="2dp">
+            <TextView
+                android:background="@color/white"
+                android:layout_width="0dp"
+                android:layout_weight="1.3"
+                android:layout_height="45dp"
+                style="@style/signUp_textView"
+                android:layout_marginRight="2dp"
+                android:text="생년월일"/>
+            <EditText
+                android:background="@color/white"
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:layout_height="45dp"
+                style="@style/signUp_editText"
+                android:hint="6자리 입력 (990101)"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <CheckBox
+                android:gravity="center"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:text="남"/>
+            <CheckBox
+                android:gravity="center"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:text="여"/>
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="가입하기"
+            android:textSize="25dp"
+            android:textColor="@color/black"
+            android:backgroundTint="#8BD69A"/>
+
+
+    </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

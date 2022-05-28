@@ -6,7 +6,7 @@
         <item name="colorPrimaryVariant">@color/white</item><!-- 그림자색 -->
         <item name="colorOnPrimary">#606060</item> <!-- 전경색, 주색상이 적용된 요소 위에 있는 요소에 적용 -->
         <!-- Secondary brand color. -->
-        <item name="colorSecondary">#4DDD66</item> <!-- 스위치 활성화 상태 -->
+        <item name="colorSecondary">#000000</item> <!-- 스위치 활성화 상태 -->
         <item name="colorSecondaryVariant">@color/teal_700</item> <!-- 그림자색 -->
         <item name="colorOnSecondary">@color/black</item> <!-- 스위치 활성화 상태 -->
         <!-- Status bar color. -->

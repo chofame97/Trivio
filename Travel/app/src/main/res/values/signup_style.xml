@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="signUp_textView">
+        <item name="android:textSize">25dp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:fontFamily">@font/g_m</item>
+        <item name="android:gravity">center</item>
+        <item name="android:letterSpacing">0.1</item>
+    </style>
+
+    <style name="signUp_editText">
+        <item name="android:textSize">15dp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:fontFamily">@font/g_m</item>
+        <item name="android:gravity">center</item>
+        <item name="android:letterSpacing">0.1</item>
+        <item name="android:paddingBottom">3.5dp</item>
+        <item name="android:paddingTop">8.2dp</item>
+    </style>
+
+</resources>
